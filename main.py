@@ -28,8 +28,8 @@ steps = 10
 st = 0
 fn = 10
 #funciones a evaluar
-fx = f3
-ifx = if3 #integral de f1
+fx = f1
+ifx = if1 #integral de f1
 x2 = np.linspace(st, fn, steps)
 y2 = [fx(xi) for xi in x2]
 int_real = ifx(x2[0], x2[-1]) / (max(x2) - min(x2))
