@@ -1,2 +1,2 @@
 print("hola")
-print ("adios")
+print ("hasta nunca")
